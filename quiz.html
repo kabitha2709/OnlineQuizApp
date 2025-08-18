@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz Page - Online Quiz App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Online Quiz App</a>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h2 class="mb-4 text-center">📝 Quiz Page</h2>
+    <p class="text-muted text-center">Here users will attempt quizzes with multiple-choice questions.</p>
+    
+    <div class="card shadow p-4">
+      <h5>Sample Question:</h5>
+      <p>What is the capital of France?</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="q1" id="opt1">
+        <label class="form-check-label" for="opt1">Berlin</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="q1" id="opt2">
+        <label class="form-check-label" for="opt2">Paris</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="q1" id="opt3">
+        <label class="form-check-label" for="opt3">Rome</label>
+      <div class="d-flex gap-2">
+          <button type="submit" class="btn btn-primary">Submit Answer</button>
+          <a href="index.html" class="btn btn-secondary">⬅ Back</a>
+        </div>
+
+    <div class="alert alert-info mt-4 text-center">
+      Your quiz progress and results will be displayed here after submission. 
+    </div>
+  </div>
+
+</body>
+</html>
